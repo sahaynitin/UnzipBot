@@ -38,9 +38,8 @@ class Data:
 
     # Deploy Message
     DEPLOY = """
-**Update Channel** 
 
-Click Here to join [📡 Update Channel](https://t.me/tellybots_4u)
+Click Here to join [🚦 Bot Status Channel](https://t.me/tellybots_4u)
 """
     
     HELP = """
@@ -55,11 +54,10 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**🚦 Bot Status** - @Tellybots_4u
 """
     
     MODES = """
-**What are Modes ❔**
+**Modes ❔**
 
 1) **Tortoise 🐢**
 Bit Slow but Steady. 
