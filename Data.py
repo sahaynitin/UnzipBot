@@ -38,12 +38,9 @@ class Data:
 
     # Deploy Message
     DEPLOY = """
-**Wanna create your own such bot??** 
+**Update Channel** 
 
-This is simple and open source bot. 
-Just click below on source code and tap on "Deploy to Heroku" to create your own bot. 
-
-Click Here for [Source Code](https://github.com/sahaynitin/UnzipBot)
+Click Here to join [📡 Update Channel](https://t.me/tellybots_4u)
 """
     
     HELP = """
@@ -58,7 +55,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**📡 Update Channel** - @Tellybots_4u
+**🚦 Bot Status** - @Tellybots_4u
 """
     
     MODES = """
@@ -107,7 +104,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("📤 About 📤", callback_data="about"),
         ],
         [InlineKeyboardButton("How to Use me ❔", callback_data="help")],
-        [InlineKeyboardButton("Create Your Own Bot", callback_data="deploy")],
+        [InlineKeyboardButton("🚦 Bot Status", callback_data="deploy")],
         [InlineKeyboardButton("📡 Update Channel", url="https://t.me/tellybots_4u")],
         [InlineKeyboardButton("💬 Support Group", url="https://t.me/tellybots_support")],
     ]
