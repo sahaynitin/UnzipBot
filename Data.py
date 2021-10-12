@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nI can unzip & unrar files you send me and upload them to our private chat. \nI will also total the contents & number of files."
+    START = "Hey {}. \n\nWelcome to {} \n\nI can unzip & unrar files you send me and upload them to your private chat. \nI will also total the contents & number of files."
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -19,10 +19,10 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @MysteryBots ♥"
+        START += f"\n\nMade With 💕 By @Tellybots_4u"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source Unzip bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/UnzipBot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
+    ABOUT = "**About This Bot** \n\nA Telegram Unzipper bot by Tellybots_4u \n\n👲 Maintained By : [Tellybots4u](https://t.me/tellybots_4u) \n\n🗃️ Framework : [Pyrogram](docs.pyrogram.org) \n\n📚 Language : [Python](www.python.org) \n\n🧒 Developer : [TellyBots4u](https://t.me/tellybots_4u)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -43,7 +43,7 @@ class Data:
 This is simple and open source bot. 
 Just click below on source code and tap on "Deploy to Heroku" to create your own bot. 
 
-Click Here for [Source Code](https://github.com/MysteryBots/UnzipBot)
+Click Here for [Source Code](https://github.com/sahaynitin/UnzipBot)
 """
     
     HELP = """
@@ -58,7 +58,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**Support** - @MysteryBots & @MysteryBotsChat
+**📡 Update Channel** - @Tellybots_4u
 """
     
     MODES = """
@@ -88,7 +88,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
     CHOOSE_MODE = "**CHOOSE MODE ** \n\nChoose a mode from below to start extracting files..."
 
     # Home Button
-    home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
+    home_button = [[InlineKeyboardButton(text="🏡 Return Home", callback_data="home")]]
 
     # Modes Buttons
 
@@ -97,7 +97,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("Tortoise 🐢", callback_data="tortoise"),
             InlineKeyboardButton("Rabbit 🐇", callback_data="rabbit")
         ],
-        [InlineKeyboardButton("What are Modes ⁉️", callback_data="modes")]
+        [InlineKeyboardButton("What are Modes❔", callback_data="modes")]
     ]
 
     # Rest Buttons
@@ -106,8 +106,8 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("What are Modes ❔", callback_data="modes"),
             InlineKeyboardButton("📤 About 📤", callback_data="about"),
         ],
-        [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("How to Use me ❔", callback_data="help")],
+        [InlineKeyboardButton("Create Your Own Bot", callback_data="deploy")],
+        [InlineKeyboardButton("📡 Update Channel", url="https://t.me/tellybots_4u")],
+        [InlineKeyboardButton("💬 Support Group", url="https://t.me/tellybots_support")],
     ]
